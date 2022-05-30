@@ -266,7 +266,43 @@ namespace tic_tac_toe_vb
 
         private void button10_Click(object sender, EventArgs e)
         {
+            try {
+                TicButton1.Enabled = true;
+                TicButton2.Enabled = true;
+                TicButton3.Enabled = true;
+                TicButton4.Enabled = true;
+                TicButton5.Enabled = true;
+                TicButton6.Enabled = true;
+                TicButton7.Enabled = true;
+                TicButton8.Enabled = true;
+                TicButton9.Enabled = true;
 
+                TicButton1.Text = "";
+                TicButton2.Text = "";
+                TicButton3.Text = "";
+                TicButton4.Text = "";
+                TicButton5.Text = "";
+                TicButton6.Text = "";
+                TicButton7.Text = "";
+                TicButton8.Text = "";
+                TicButton9.Text = "";
+
+                NewGameButton.Enabled = true;
+
+                TicButton1.BackColor = Color.WhiteSmoke;
+                TicButton2.BackColor = Color.WhiteSmoke;
+                TicButton3.BackColor = Color.WhiteSmoke;
+                TicButton4.BackColor = Color.WhiteSmoke;
+                TicButton5.BackColor = Color.WhiteSmoke;
+                TicButton6.BackColor = Color.WhiteSmoke;
+                TicButton7.BackColor = Color.WhiteSmoke;
+                TicButton8.BackColor = Color.WhiteSmoke;
+                TicButton9.BackColor = Color.WhiteSmoke;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -394,6 +430,68 @@ namespace tic_tac_toe_vb
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            try { 
+            TicButton1.Enabled = true;
+            TicButton2.Enabled = true;
+            TicButton3.Enabled = true;
+            TicButton4.Enabled = true;
+            TicButton5.Enabled = true;
+            TicButton6.Enabled = true;
+            TicButton7.Enabled = true;
+            TicButton8.Enabled = true;
+            TicButton9.Enabled = true;
+
+            TicButton1.Text = "";
+            TicButton2.Text = "";
+            TicButton3.Text = "";
+            TicButton4.Text = "";
+            TicButton5.Text = "";
+            TicButton6.Text = "";
+            TicButton7.Text = "";
+            TicButton8.Text = "";
+            TicButton9.Text = "";
+
+            PlayerXScore.Text = "0";
+            PlayerOScore.Text = "0";
+
+            TicButton1.BackColor = Color.WhiteSmoke;
+            TicButton2.BackColor = Color.WhiteSmoke;
+            TicButton3.BackColor = Color.WhiteSmoke;
+            TicButton4.BackColor = Color.WhiteSmoke;
+            TicButton5.BackColor = Color.WhiteSmoke;
+            TicButton6.BackColor = Color.WhiteSmoke;
+            TicButton7.BackColor = Color.WhiteSmoke;
+            TicButton8.BackColor = Color.WhiteSmoke;
+            TicButton9.BackColor = Color.WhiteSmoke;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult iExit;
+                iExit = MessageBox.Show("Confirm if you want to exit.", "TicTacToe",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (iExit == DialogResult.Yes)
+                {
+                    Application.Exit();
+                  
+                }
+
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

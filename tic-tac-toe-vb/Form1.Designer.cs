@@ -39,9 +39,9 @@
             this.PlayerXScore = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.NewGameButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.NextRoundButton = new System.Windows.Forms.Button();
             this.TicButton1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.TicButton9 = new System.Windows.Forms.Button();
@@ -172,44 +172,46 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.button11);
-            this.panel3.Controls.Add(this.button12);
-            this.panel3.Controls.Add(this.button10);
+            this.panel3.Controls.Add(this.NewGameButton);
+            this.panel3.Controls.Add(this.ExitButton);
+            this.panel3.Controls.Add(this.NextRoundButton);
             this.panel3.Location = new System.Drawing.Point(3, 203);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(304, 153);
             this.panel3.TabIndex = 1;
             // 
-            // button11
+            // NewGameButton
             // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            this.button11.Location = new System.Drawing.Point(38, 57);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(224, 35);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "New Game";
-            this.button11.UseVisualStyleBackColor = true;
+            this.NewGameButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.NewGameButton.Location = new System.Drawing.Point(38, 57);
+            this.NewGameButton.Name = "NewGameButton";
+            this.NewGameButton.Size = new System.Drawing.Size(224, 35);
+            this.NewGameButton.TabIndex = 12;
+            this.NewGameButton.Text = "New Game";
+            this.NewGameButton.UseVisualStyleBackColor = true;
+            this.NewGameButton.Click += new System.EventHandler(this.button11_Click_1);
             // 
-            // button12
+            // ExitButton
             // 
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(114, 102);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(74, 26);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Exit";
-            this.button12.UseVisualStyleBackColor = true;
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.Location = new System.Drawing.Point(114, 102);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(74, 26);
+            this.ExitButton.TabIndex = 11;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // button10
+            // NextRoundButton
             // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            this.button10.Location = new System.Drawing.Point(40, 12);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(224, 35);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Next Round";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.NextRoundButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.NextRoundButton.Location = new System.Drawing.Point(40, 12);
+            this.NextRoundButton.Name = "NextRoundButton";
+            this.NextRoundButton.Size = new System.Drawing.Size(224, 35);
+            this.NextRoundButton.TabIndex = 9;
+            this.NextRoundButton.Text = "Next Round";
+            this.NextRoundButton.UseVisualStyleBackColor = true;
+            this.NextRoundButton.Click += new System.EventHandler(this.button10_Click);
             // 
             // TicButton1
             // 
@@ -356,10 +358,10 @@
         private System.Windows.Forms.Button TicButton5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button NextRoundButton;
         private System.Windows.Forms.Button TicButton9;
         private System.Windows.Forms.Button TicButton8;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label PlayerOScore;
@@ -367,7 +369,7 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label PlayerXScore;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button NewGameButton;
     }
 }
 
