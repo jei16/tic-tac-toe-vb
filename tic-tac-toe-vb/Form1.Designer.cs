@@ -142,7 +142,7 @@
             this.panel5.Location = new System.Drawing.Point(-2, -7);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(153, 199);
-            this.panel5.TabIndex = 3;
+            this.panel5.TabIndex = 1;
             // 
             // PlayerXScore
             // 
@@ -178,7 +178,7 @@
             this.panel3.Location = new System.Drawing.Point(3, 203);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(304, 153);
-            this.panel3.TabIndex = 1;
+            this.panel3.TabIndex = 0;
             // 
             // NewGameButton
             // 
@@ -216,10 +216,11 @@
             // TicButton1
             // 
             this.TicButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton1.Location = new System.Drawing.Point(36, 12);
+            this.TicButton1.Location = new System.Drawing.Point(43, 10);
             this.TicButton1.Name = "TicButton1";
             this.TicButton1.Size = new System.Drawing.Size(130, 130);
-            this.TicButton1.TabIndex = 0;
+            this.TicButton1.TabIndex = 8;
+            this.TicButton1.TabStop = false;
             this.TicButton1.UseVisualStyleBackColor = true;
             this.TicButton1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -238,85 +239,93 @@
             this.panel2.Location = new System.Drawing.Point(334, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(454, 413);
-            this.panel2.TabIndex = 1;
+            this.panel2.TabIndex = 0;
             // 
             // TicButton9
             // 
             this.TicButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton9.Location = new System.Drawing.Point(287, 265);
+            this.TicButton9.Location = new System.Drawing.Point(301, 268);
             this.TicButton9.Name = "TicButton9";
             this.TicButton9.Size = new System.Drawing.Size(130, 130);
-            this.TicButton9.TabIndex = 8;
+            this.TicButton9.TabIndex = 0;
+            this.TicButton9.TabStop = false;
             this.TicButton9.UseVisualStyleBackColor = true;
             this.TicButton9.Click += new System.EventHandler(this.TicButton9_Click);
             // 
             // TicButton8
             // 
             this.TicButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton8.Location = new System.Drawing.Point(161, 265);
+            this.TicButton8.Location = new System.Drawing.Point(172, 268);
             this.TicButton8.Name = "TicButton8";
             this.TicButton8.Size = new System.Drawing.Size(130, 130);
-            this.TicButton8.TabIndex = 7;
+            this.TicButton8.TabIndex = 0;
+            this.TicButton8.TabStop = false;
             this.TicButton8.UseVisualStyleBackColor = true;
             this.TicButton8.Click += new System.EventHandler(this.TicButton8_Click);
             // 
             // TicButton7
             // 
             this.TicButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton7.Location = new System.Drawing.Point(36, 265);
+            this.TicButton7.Location = new System.Drawing.Point(43, 268);
             this.TicButton7.Name = "TicButton7";
             this.TicButton7.Size = new System.Drawing.Size(130, 130);
-            this.TicButton7.TabIndex = 6;
+            this.TicButton7.TabIndex = 0;
+            this.TicButton7.TabStop = false;
             this.TicButton7.UseVisualStyleBackColor = true;
             this.TicButton7.Click += new System.EventHandler(this.TicButton7_Click);
             // 
             // TicButton6
             // 
             this.TicButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton6.Location = new System.Drawing.Point(287, 139);
+            this.TicButton6.Location = new System.Drawing.Point(301, 139);
             this.TicButton6.Name = "TicButton6";
             this.TicButton6.Size = new System.Drawing.Size(130, 130);
-            this.TicButton6.TabIndex = 5;
+            this.TicButton6.TabIndex = 0;
+            this.TicButton6.TabStop = false;
             this.TicButton6.UseVisualStyleBackColor = true;
             this.TicButton6.Click += new System.EventHandler(this.TicButton6_Click);
             // 
             // TicButton5
             // 
             this.TicButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton5.Location = new System.Drawing.Point(161, 139);
+            this.TicButton5.Location = new System.Drawing.Point(172, 139);
             this.TicButton5.Name = "TicButton5";
             this.TicButton5.Size = new System.Drawing.Size(130, 130);
-            this.TicButton5.TabIndex = 4;
+            this.TicButton5.TabIndex = 0;
+            this.TicButton5.TabStop = false;
             this.TicButton5.UseVisualStyleBackColor = true;
             this.TicButton5.Click += new System.EventHandler(this.TicButton5_Click);
             // 
             // TicButton4
             // 
             this.TicButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton4.Location = new System.Drawing.Point(36, 139);
+            this.TicButton4.Location = new System.Drawing.Point(43, 139);
             this.TicButton4.Name = "TicButton4";
             this.TicButton4.Size = new System.Drawing.Size(130, 130);
-            this.TicButton4.TabIndex = 3;
+            this.TicButton4.TabIndex = 0;
+            this.TicButton4.TabStop = false;
             this.TicButton4.UseVisualStyleBackColor = true;
             this.TicButton4.Click += new System.EventHandler(this.button4_Click);
             // 
             // TicButton3
             // 
             this.TicButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton3.Location = new System.Drawing.Point(287, 12);
+            this.TicButton3.Location = new System.Drawing.Point(301, 10);
             this.TicButton3.Name = "TicButton3";
             this.TicButton3.Size = new System.Drawing.Size(130, 130);
-            this.TicButton3.TabIndex = 2;
+            this.TicButton3.TabIndex = 0;
+            this.TicButton3.TabStop = false;
             this.TicButton3.UseVisualStyleBackColor = true;
             this.TicButton3.Click += new System.EventHandler(this.TicButton3_Click);
             // 
             // TicButton2
             // 
             this.TicButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F);
-            this.TicButton2.Location = new System.Drawing.Point(161, 12);
+            this.TicButton2.Location = new System.Drawing.Point(172, 10);
             this.TicButton2.Name = "TicButton2";
             this.TicButton2.Size = new System.Drawing.Size(130, 130);
-            this.TicButton2.TabIndex = 1;
+            this.TicButton2.TabIndex = 0;
+            this.TicButton2.TabStop = false;
             this.TicButton2.UseVisualStyleBackColor = true;
             this.TicButton2.Click += new System.EventHandler(this.TicButton2_Click);
             // 
@@ -328,6 +337,8 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Tic Tac Toe";
             this.Load += new System.EventHandler(this.Form1_Load);

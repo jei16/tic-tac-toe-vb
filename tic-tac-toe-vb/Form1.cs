@@ -481,7 +481,7 @@ namespace tic_tac_toe_vb
                 DialogResult iExit;
                 iExit = MessageBox.Show("Confirm if you want to exit.", "TicTacToe",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
-                if (iExit == DialogResult.Yes)
+                if (iExit == DialogResult.OK)
                 {
                     Application.Exit();
                   
