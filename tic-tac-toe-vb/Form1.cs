@@ -208,8 +208,25 @@ namespace tic_tac_toe_vb
                 Enable_False();
             }
 
+            if (TicButton1.Text == "X" && TicButton2.Text == "X" && TicButton3.Text == "O" &&
+                TicButton4.Text == "O" && TicButton5.Text == "O" && TicButton6.Text == "X" &&
+                TicButton7.Text == "X" && TicButton8.Text == "O" && TicButton9.Text == "X")
+            {
+                MessageBox.Show("Draw", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Enable_False();
+            }
+
+            if (TicButton1.Text == "X" && TicButton2.Text == "O" && TicButton3.Text == "O" &&
+               TicButton4.Text == "O" && TicButton5.Text == "X" && TicButton6.Text == "X" &&
+               TicButton7.Text == "X" && TicButton8.Text == "O" && TicButton9.Text == "O")
+            {
+                MessageBox.Show("Draw", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Enable_False();
+            }
 
         }
+
+
 
         public Form1()
         {
@@ -435,12 +452,14 @@ namespace tic_tac_toe_vb
                 TicButton9.Text = "X";
                 checker = true;
                 PlayersTurn.Text = "Player O's turn";
+
             }
             else
             {
                 TicButton9.Text = "O";
                 checker = false;
                 PlayersTurn.Text = "Player X's turn";
+
             }
             score();
             TicButton9.Enabled = false;
