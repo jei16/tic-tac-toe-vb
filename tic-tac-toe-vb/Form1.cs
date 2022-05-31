@@ -208,22 +208,7 @@ namespace tic_tac_toe_vb
                 Enable_False();
             }
 
-            if (TicButton1.Text == "X" && TicButton2.Text == "X" && TicButton3.Text == "O" &&
-                TicButton4.Text == "O" && TicButton5.Text == "O" && TicButton6.Text == "X" &&
-                TicButton7.Text == "X" && TicButton8.Text == "O" && TicButton9.Text == "X")
-            {
-                MessageBox.Show("Draw", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Enable_False();
-            }
-
-            if (TicButton1.Text == "X" && TicButton2.Text == "O" && TicButton3.Text == "O" &&
-               TicButton4.Text == "O" && TicButton5.Text == "X" && TicButton6.Text == "X" &&
-               TicButton7.Text == "X" && TicButton8.Text == "O" && TicButton9.Text == "O")
-            {
-                MessageBox.Show("Draw", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Enable_False();
-            }
-
+            
         }
 
 
@@ -512,24 +497,16 @@ namespace tic_tac_toe_vb
             }
         }
 
-        private void ExitButton_Click(object sender, EventArgs e)
+     
+       
+        private void helpbtn_Click(object sender, EventArgs e)
         {
-            try
-            {
-                DialogResult iExit;
-                iExit = MessageBox.Show("Confirm if you want to exit.", "TicTacToe",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-                if (iExit == DialogResult.OK)
-                {
-                    Application.Exit();
-                  
-                }
-
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message, "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            MessageBox.Show("If a certain round is DRAW, wherein the boxes are full and no winning combinations from Player X and O are formed, click the Next Round button to refresh the game without resetting the scores.",
+                
+                
+                
+                
+                "Help");
         }
     }
 }
