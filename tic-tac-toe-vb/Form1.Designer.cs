@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.PlayersTurn = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -64,22 +64,22 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.PlayersTurn);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(316, 47);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // PlayersTurn
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(99, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 27);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tic Tac Toe";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.PlayersTurn.AutoSize = true;
+            this.PlayersTurn.Font = new System.Drawing.Font("Palatino Linotype", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlayersTurn.Location = new System.Drawing.Point(87, 9);
+            this.PlayersTurn.Name = "PlayersTurn";
+            this.PlayersTurn.Size = new System.Drawing.Size(144, 27);
+            this.PlayersTurn.TabIndex = 0;
+            this.PlayersTurn.Text = "Player X\'s turn";
+            this.PlayersTurn.Click += new System.EventHandler(this.label1_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -373,7 +373,7 @@
         private System.Windows.Forms.Button TicButton9;
         private System.Windows.Forms.Button TicButton8;
         private System.Windows.Forms.Button ExitButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label PlayersTurn;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label PlayerOScore;
         private System.Windows.Forms.Label label3;

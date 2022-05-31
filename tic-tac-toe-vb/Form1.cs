@@ -232,11 +232,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton4.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton4.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton4.Enabled = false;
@@ -248,11 +250,14 @@ namespace tic_tac_toe_vb
             {
                 TicButton1.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton1.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
+
             }
             score();
             TicButton1.Enabled = false;
@@ -321,11 +326,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton2.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton2.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton2.Enabled = false;
@@ -337,11 +344,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton3.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton3.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton3.Enabled = false;
@@ -353,11 +362,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton5.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton5.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton5.Enabled = false;
@@ -369,11 +380,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton6.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton6.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton6.Enabled = false;
@@ -385,11 +398,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton7.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton7.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton7.Enabled = false;
@@ -401,11 +416,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton8.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton8.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton8.Enabled = false;
@@ -417,11 +434,13 @@ namespace tic_tac_toe_vb
             {
                 TicButton9.Text = "X";
                 checker = true;
+                PlayersTurn.Text = "Player O's turn";
             }
             else
             {
                 TicButton9.Text = "O";
                 checker = false;
+                PlayersTurn.Text = "Player X's turn";
             }
             score();
             TicButton9.Enabled = false;
