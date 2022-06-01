@@ -490,7 +490,7 @@ namespace tic_tac_toe_vb
        
         private void helpbtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("If a certain round is DRAW, wherein all the boxes are already clicked and no winning combinations from Player X and O are formed, click the Next Round button to refresh the game without resetting the scores.", 
+            MessageBox.Show("If a certain round is DRAW, wherein all the boxes are already clicked and no winning combinations from Player X or O are formed, click the Next Round button to refresh the game without resetting the scores.", 
                 "Help");
         }
     }
