@@ -273,7 +273,6 @@ namespace tic_tac_toe_vb
 
         private void button10_Click(object sender, EventArgs e)
         {
-            try {
                 TicButton1.Enabled = true;
                 TicButton2.Enabled = true;
                 TicButton3.Enabled = true;
@@ -305,11 +304,7 @@ namespace tic_tac_toe_vb
                 TicButton7.BackColor = Color.WhiteSmoke;
                 TicButton8.BackColor = Color.WhiteSmoke;
                 TicButton9.BackColor = Color.WhiteSmoke;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+           
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -456,8 +451,7 @@ namespace tic_tac_toe_vb
         }
 
         private void button11_Click_1(object sender, EventArgs e)
-        {
-            try { 
+        { 
             TicButton1.Enabled = true;
             TicButton2.Enabled = true;
             TicButton3.Enabled = true;
@@ -490,22 +484,13 @@ namespace tic_tac_toe_vb
             TicButton7.BackColor = Color.WhiteSmoke;
             TicButton8.BackColor = Color.WhiteSmoke;
             TicButton9.BackColor = Color.WhiteSmoke;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
         }
 
      
        
         private void helpbtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("If a certain round is DRAW, wherein the boxes are full and no winning combinations from Player X and O are formed, click the Next Round button to refresh the game without resetting the scores.",
-                
-                
-                
-                
+            MessageBox.Show("If a certain round is DRAW, wherein all the boxes are already clicked and no winning combinations from Player X and O are formed, click the Next Round button to refresh the game without resetting the scores.", 
                 "Help");
         }
     }
